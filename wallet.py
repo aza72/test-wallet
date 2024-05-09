@@ -76,7 +76,7 @@ class Wallet:
         data.update(dct)
         return data
 
-#Поиск записей
+#Поиск записей test+
     def search_record(self, data:Dict[int, Dict[str,str]], category:str, date:str, summ:str)->List[int]:
         result:List[int] =[]
         

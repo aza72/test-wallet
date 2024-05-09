@@ -5,9 +5,6 @@ from wallet import Wallet
 
 class TestWallet(unittest.TestCase):
 
-    #def setUp(self):
-        #self.Wallet = Wallet()
-
 
     def test_editing_record(self):
 
